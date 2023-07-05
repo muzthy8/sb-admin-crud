@@ -1,4 +1,4 @@
-import Dashboard from "./components/DashBoard";
+import Dashboard from "./components/Dashboard";
 import AddUser from "./components/AddUser";
 import Sidebar from "./components/Sidebar";
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
@@ -8,7 +8,7 @@ import { useState } from "react";
 function App() {
   let [users,setUsers] = useState([
     {
-      name:'Mohammad',
+      name:'Mohd',
       email:'mo@gmail.com',
       mobile:'9910910901',
       address:'123, Dubai Main Road, Dubai',
